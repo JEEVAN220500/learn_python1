@@ -16,4 +16,4 @@
 name = input("Player:")
 games_played = int(input("Games Played:"))
 total_score = int(input("Total Score:"))
-avg_score = print(f"Average Score:{total_score / games_played}")
+avg_score = print(f"Average Score for {name}: {total_score // games_played}")
